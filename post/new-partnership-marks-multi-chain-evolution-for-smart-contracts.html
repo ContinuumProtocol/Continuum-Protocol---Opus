@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Honouring block producers as participants, not plumbing — Continuum Protocol</title>
+  <meta name="description" content="Miners and validators are participants whose work secures the ledger. Why Continuum refuses to abstract them into interchangeable infrastructure." />
+  <link rel="icon" type="image/svg+xml" href="../images/logo.svg" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<div class="backdrop" aria-hidden="true">
+  <div class="backdrop__orb backdrop__orb--one"></div>
+  <div class="backdrop__orb backdrop__orb--two"></div>
+  <div class="backdrop__orb backdrop__orb--three"></div>
+  <div class="backdrop__grid"></div>
+</div>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="../index.html" class="brand">
+      <img src="../images/logo.svg" alt="Continuum" class="brand__mark" />
+      <span>Continuum</span>
+    </a>
+    <div class="nav__links">
+      <a href="../index.html#philosophy" class="nav__link">Philosophy</a>
+      <a href="../index.html#principles" class="nav__link">Principles</a>
+      <a href="../about.html" class="nav__link">About</a>
+      <a href="../blog.html" class="nav__link">Writings</a>
+    </div>
+    <a href="https://us.bigin.online/org867920251/forms/continuum-protocol-contact-form" target="_blank" rel="noopener" class="button button--nav">Get in touch</a>
+  </div>
+</nav>
+
+<main class="page">
+
+  <article>
+    <header class="essay-header">
+      <div class="essay-header__inner">
+        <span class="eyebrow eyebrow--pill anim-fade-up">March 18, 2026</span>
+        <h1 class="anim-fade-up anim-delay-1">Honouring block producers as participants, not plumbing</h1>
+      </div>
+    </header>
+
+    <figure class="essay-figure">
+      <div class="essay-figure__frame">
+        <img src="../images/67d1622b804351b24881e2a4_blog_3.svg" alt="" />
+      </div>
+    </figure>
+
+    <div class="essay-body">
+      <p>There is a habit in blockchain design of speaking about block producers the way a city speaks about its sewers: essential, invisible, and ideally never thought about. Miners and validators become "infrastructure," an implementation detail abstracted behind the promise of finality. Continuum rejects that framing. The people and machines who order the ledger are participants in the system, with a sovereignty of their own, and honouring them is not sentiment — it is security.</p>
+
+      <h2>Consensus is not free</h2>
+      <p>Every confirmed block is the product of real work: energy spent, capital staked, hardware run, risk carried. That expenditure is what makes the ledger expensive to rewrite and therefore trustworthy. When a design treats production as a free background service, it starts making decisions that quietly erode the very thing that secured it — squeezing rewards to nothing, centralising who is allowed to produce, or routing ordering through a single privileged operator.</p>
+
+      <blockquote>
+        <p>Abstract the producers away and you have not removed them. You have just stopped noticing who now controls the ledger.</p>
+      </blockquote>
+
+      <h2>Abstraction hides capture</h2>
+      <p>The danger of calling producers "plumbing" is that plumbing is something you centralise for efficiency without a second thought. That is exactly how ordering power concentrates: a sequencer here, a dominant pool there, a validator set curated by whoever holds the upgrade key. Each step is sold as convenience. Together they reconstruct the trusted third party that the whole design was meant to remove — only now it wears the costume of infrastructure.</p>
+
+      <h2>What honouring producers looks like</h2>
+      <p>Continuum reads a system as healthy when its treatment of producers keeps them plural, permissionless, and fairly rewarded:</p>
+      <ul>
+        <li>Anyone can become a producer without seeking permission from an incumbent.</li>
+        <li>No single party can order, censor, or reorder transactions unilaterally.</li>
+        <li>Rewards remain sufficient to keep production decentralised over time, not just at launch.</li>
+        <li>The security budget is treated as a first-class cost, never a rounding error.</li>
+      </ul>
+
+      <h2>Why this belongs in a philosophy of ownership</h2>
+      <p>Because a coin owner's sovereignty rests on the producers' independence. If ordering power collapses into one operator, your unilateral exit becomes an exit that operator can deny. Honouring producers is how the owner's final say stays final. The three sovereignties — chains, producers, owners — are not separate concerns. Weaken the middle one and the outer two fall with it.</p>
+    </div>
+  </article>
+
+  <section class="section cta" style="border-top: 1px solid var(--color-border);">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="heading-lg">Keep sovereignty in the conversation.</h2>
+        <p class="cta__sub">Occasional essays on ownership, interoperability, and sound money.</p>
+        <form class="subscribe" action="https://us.bigin.online/org867920251/forms/continuum-protocol-contact-form" target="_blank" onsubmit="return false;">
+          <input type="email" placeholder="Your email address" class="subscribe__input" aria-label="Email address" />
+          <button type="submit" class="button button--primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <a href="../index.html" class="brand">
+          <img src="../images/logo.svg" alt="Continuum" class="brand__mark" />
+          <span>Continuum</span>
+        </a>
+        <p class="footer__desc">A philosophy of interoperability and sovereignty — honouring the chains, the producers, and the owners, and returning smart contracts to Satoshi's roots.</p>
+        <p class="footer__email"><a href="mailto:hello@continuumprotocol.com">hello@continuumprotocol.com</a></p>
+        <p class="footer__copy">Continuum Protocol. Sovereignty preserved. 2026</p>
+      </div>
+      <div class="footer__social">
+        <p class="footer__social-label">Follow</p>
+        <div class="footer__social-links">
+          <a href="https://x.com/ContinuumCEO" target="_blank" rel="noopener" class="footer__social-link">Twitter / X</a>
+          <a href="../about.html" class="footer__social-link">About</a>
+          <a href="../blog.html" class="footer__social-link">Writings</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

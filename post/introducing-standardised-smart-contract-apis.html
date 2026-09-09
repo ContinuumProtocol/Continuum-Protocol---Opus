@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trust-minimised is not sovereign — Continuum Protocol</title>
+  <meta name="description" content="Trust-minimised still means trust. Why Continuum treats the phrase as a warning, and what true ownership inside a contract requires." />
+  <link rel="icon" type="image/svg+xml" href="../images/logo.svg" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<div class="backdrop" aria-hidden="true">
+  <div class="backdrop__orb backdrop__orb--one"></div>
+  <div class="backdrop__orb backdrop__orb--two"></div>
+  <div class="backdrop__orb backdrop__orb--three"></div>
+  <div class="backdrop__grid"></div>
+</div>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="../index.html" class="brand">
+      <img src="../images/logo.svg" alt="Continuum" class="brand__mark" />
+      <span>Continuum</span>
+    </a>
+    <div class="nav__links">
+      <a href="../index.html#philosophy" class="nav__link">Philosophy</a>
+      <a href="../index.html#principles" class="nav__link">Principles</a>
+      <a href="../about.html" class="nav__link">About</a>
+      <a href="../blog.html" class="nav__link">Writings</a>
+    </div>
+    <a href="https://us.bigin.online/org867920251/forms/continuum-protocol-contact-form" target="_blank" rel="noopener" class="button button--nav">Get in touch</a>
+  </div>
+</nav>
+
+<main class="page">
+
+  <article>
+    <header class="essay-header">
+      <div class="essay-header__inner">
+        <span class="eyebrow eyebrow--pill anim-fade-up">February 24, 2026</span>
+        <h1 class="anim-fade-up anim-delay-1">Trust-minimised is not sovereign</h1>
+      </div>
+    </header>
+
+    <figure class="essay-figure">
+      <div class="essay-figure__frame">
+        <img src="../images/67d1622b804351b24881e2a3_blog_2.svg" alt="" />
+      </div>
+    </figure>
+
+    <div class="essay-body">
+      <p>"Trust-minimised" is the most revealing phrase in modern crypto. It concedes, in its own words, that trust is still there — merely reduced. It is a measurement of how much of your sovereignty you are handing over, dressed up as a virtue. Continuum treats it as a warning label, not a badge — and it applies to far more than coins.</p>
+
+      <h2>The quiet substitution</h2>
+      <p>The world-computer model asks you to deposit your asset into a contract. From that moment it is no longer a thing you hold — a coin, a deed, a title, your side of an escrow — but state the contract holds on your behalf, governed by code you probably did not read and often cannot change. Somewhere in that code sits a deployer's upgrade key or an inserted signer. The system calls this trustless because the code is public. But public code you must rely on is still something you trust. The custodian did not disappear — it was rewritten in a language with better marketing.</p>
+
+      <blockquote>
+        <p>Reducing how much you must trust a custodian is not the same as removing the custodian. Continuum wants the second thing.</p>
+      </blockquote>
+
+      <h2>What sovereignty inside a contract means</h2>
+      <p>Satoshi's coin has a simple, radical property: the holder of the key is the owner, and no one else can move it. The failure of the world-computer ethic is that it drops this property the instant the asset enters a contract. Continuum's demand is that ownership must survive the contract, not be suspended by it — and the same holds for the terms of an agreement.</p>
+      <p>Concretely, a design honours sovereignty when it can answer yes to all of these:</p>
+      <ul>
+        <li>The owner can exit unilaterally, without asking permission from a program or a committee.</li>
+        <li>No upgrade key, admin role, or governance vote can seize or freeze the owner's asset.</li>
+        <li>Correctness does not depend on a trusted operator staying honest or staying online.</li>
+        <li>The worst case for the owner is inconvenience, never confiscation.</li>
+      </ul>
+      <p>Most contracts marketed as trust-minimised fail at least one of these — usually the first, and often the second. That is the gap between "we made trust smaller" and "we made ownership durable."</p>
+
+      <h2>Two parties, not three</h2>
+      <p>Money is only the most familiar case. The deeper subject is agreement. Two people can strike a deal — an escrow, a sale, a licence, the transfer of a deed — that needs exactly two parties. The world-computer habit is to insert a third anyway: a multisig deployer who can reject or rewrite the terms, an oracle that must be believed, a bridge operator who holds the goods in transit. Each of these is a party to your deal who was never supposed to be there.</p>
+      <p>Continuum's rule is to remove the third. An escrow between two parties should be a two-of-two pact, not a two-of-three arrangement quietly refereed by a stranger. When a deal only needs two signatures, adding a third is not extra security — it is an extra way to lose.</p>
+
+      <h2>Native, not a layer</h2>
+      <p>The reason "trust-minimised" keeps sneaking a third party back in is architectural. When enforcement lives in an abstracted layer bolted on top of the chain — a contract with an owner, a service with an operator — someone holds a key to that layer, and a key is a party. When enforcement is native to the chain's own consensus, there is no separate layer to own and no key to turn. The terms hold because the chain holds them, not because an administrator promises to behave. Sovereignty that is native cannot be edited out from under you.</p>
+
+      <h2>Why the distinction is not pedantic</h2>
+      <p>Because words shape what people accept. Once "trust-minimised" is treated as good enough, every new custodian gets to wear the costume, and the standard quietly slides from ownership to tolerable dependency. Continuum keeps the older, stricter word — sovereign — precisely so the slide has something to catch on.</p>
+
+      <h2>The higher bar</h2>
+      <p>We are not against contracts. We are against contracts that take custody and call it trustlessness. The aim is verifiable ownership and enforceable agreement that need no permission and no intermediary: put an asset to work, or bind a deal between two parties, without ever handing control to a third. That is harder to build than a deposit box with a clever lock. It is also the only version worth Satoshi's name.</p>
+    </div>
+  </article>
+
+  <section class="section cta" style="border-top: 1px solid var(--color-border);">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="heading-lg">Keep sovereignty in the conversation.</h2>
+        <p class="cta__sub">Occasional essays on ownership, interoperability, and sound money.</p>
+        <form class="subscribe" action="https://us.bigin.online/org867920251/forms/continuum-protocol-contact-form" target="_blank" onsubmit="return false;">
+          <input type="email" placeholder="Your email address" class="subscribe__input" aria-label="Email address" />
+          <button type="submit" class="button button--primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <a href="../index.html" class="brand">
+          <img src="../images/logo.svg" alt="Continuum" class="brand__mark" />
+          <span>Continuum</span>
+        </a>
+        <p class="footer__desc">A philosophy of interoperability and sovereignty — honouring the chains, the producers, and the owners, and returning smart contracts to Satoshi's roots.</p>
+        <p class="footer__email"><a href="mailto:hello@continuumprotocol.com">hello@continuumprotocol.com</a></p>
+        <p class="footer__copy">Continuum Protocol. Sovereignty preserved. 2026</p>
+      </div>
+      <div class="footer__social">
+        <p class="footer__social-label">Follow</p>
+        <div class="footer__social-links">
+          <a href="https://x.com/ContinuumCEO" target="_blank" rel="noopener" class="footer__social-link">Twitter / X</a>
+          <a href="../about.html" class="footer__social-link">About</a>
+          <a href="../blog.html" class="footer__social-link">Writings</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

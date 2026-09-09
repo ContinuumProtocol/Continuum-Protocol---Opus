@@ -1,0 +1,26 @@
+<svg viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hex node network logo — center + 6 outer nodes connected -->
+  <!-- Outer ring connections -->
+  <line x1="27" y1="5"    x2="43.39" y2="14"  stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="43.39" y1="14" x2="43.39" y2="40"  stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="43.39" y1="40" x2="27" y2="49"    stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="27" y1="49"   x2="10.61" y2="40"  stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="10.61" y1="40" x2="10.61" y2="14"  stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="10.61" y1="14" x2="27" y2="5"    stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- Center to outer spokes -->
+  <line x1="27" y1="27" x2="27" y2="5"    stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="27" y1="27" x2="43.39" y2="14"  stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="27" y1="27" x2="43.39" y2="40"  stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="27" y1="27" x2="27" y2="49"    stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="27" y1="27" x2="10.61" y2="40"  stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="27" y1="27" x2="10.61" y2="14"  stroke="#c9a040" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- Outer nodes -->
+  <circle cx="27"    cy="5"    r="3" fill="#c9a040"/>
+  <circle cx="43.39" cy="14"   r="3" fill="#c9a040"/>
+  <circle cx="43.39" cy="40"   r="3" fill="#c9a040"/>
+  <circle cx="27"    cy="49"   r="3" fill="#c9a040"/>
+  <circle cx="10.61" cy="40"   r="3" fill="#c9a040"/>
+  <circle cx="10.61" cy="14"   r="3" fill="#c9a040"/>
+  <!-- Center node -->
+  <circle cx="27" cy="27" r="3.5" fill="#c9a040"/>
+</svg>
